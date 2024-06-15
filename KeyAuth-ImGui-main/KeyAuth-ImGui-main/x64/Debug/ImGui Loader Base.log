@@ -1,0 +1,13 @@
+﻿main.obj : error LNK2005: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl tm_to_readable_time(struct tm)" (?tm_to_readable_time@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@Utm@@@Z) already defined in ui.obj
+main.obj : error LNK2005: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > name" (?name@@3V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@A) already defined in ui.obj
+main.obj : error LNK2005: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > ownerid" (?ownerid@@3V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@A) already defined in ui.obj
+main.obj : error LNK2005: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > secret" (?secret@@3V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@A) already defined in ui.obj
+main.obj : error LNK2005: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > version" (?version@@3V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@A) already defined in ui.obj
+main.obj : error LNK2005: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > url" (?url@@3V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@A) already defined in ui.obj
+main.obj : error LNK2005: "class KeyAuth::api KeyAuthApp" (?KeyAuthApp@@3Vapi@KeyAuth@@A) already defined in ui.obj
+library_x64.lib(auth.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in ui.obj
+library_x64.lib(auth.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in ui.obj
+library_x64.lib(utils.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in ui.obj
+library_x64.lib(utils.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in ui.obj
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+C:\Users\timot\Downloads\KeyAuth-ImGui-main\KeyAuth-ImGui-main\x64\Debug\ImGui Loader base.exe : fatal error LNK1169: one or more multiply defined symbols found

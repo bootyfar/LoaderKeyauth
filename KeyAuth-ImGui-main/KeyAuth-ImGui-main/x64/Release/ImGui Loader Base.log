@@ -1,0 +1,26 @@
+﻿  ui.cc
+C:\Users\timot\Downloads\KeyAuth-ImGui-main\KeyAuth-ImGui-main\ui\ui.cc(1,1): error C2059: syntax error: 'constant'
+C:\Users\timot\Downloads\KeyAuth-ImGui-main\KeyAuth-ImGui-main\ui\ui.cc(1,5): error C2014: preprocessor command must start as first nonwhite space
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\sal.h(2361,12): error C2143: syntax error: missing ';' before '{'
+  (compiling source file 'ui/ui.cc')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\sal.h(2361,12): error C2447: '{': missing function header (old-style formal list?)
+  (compiling source file 'ui/ui.cc')
+  
+C:\Users\timot\Downloads\KeyAuth-ImGui-main\KeyAuth-ImGui-main\ui\ui.cc(50,6): error C2653: 'ui': is not a class or namespace name
+C:\Users\timot\Downloads\KeyAuth-ImGui-main\KeyAuth-ImGui-main\ui\ui.cc(59,40): error C2065: 'window_pos': undeclared identifier
+C:\Users\timot\Downloads\KeyAuth-ImGui-main\KeyAuth-ImGui-main\ui\ui.cc(59,54): error C2065: 'window_pos': undeclared identifier
+C:\Users\timot\Downloads\KeyAuth-ImGui-main\KeyAuth-ImGui-main\ui\ui.cc(60,41): error C2065: 'window_size': undeclared identifier
+C:\Users\timot\Downloads\KeyAuth-ImGui-main\KeyAuth-ImGui-main\ui\ui.cc(60,56): error C2065: 'window_size': undeclared identifier
+C:\Users\timot\Downloads\KeyAuth-ImGui-main\KeyAuth-ImGui-main\ui\ui.cc(63,22): error C2065: 'window_title': undeclared identifier
+C:\Users\timot\Downloads\KeyAuth-ImGui-main\KeyAuth-ImGui-main\ui\ui.cc(63,53): error C2065: 'window_flags': undeclared identifier
+C:\Users\timot\Downloads\KeyAuth-ImGui-main\KeyAuth-ImGui-main\ui\ui.cc(138,40): error C2065: 'window_pos': undeclared identifier
+C:\Users\timot\Downloads\KeyAuth-ImGui-main\KeyAuth-ImGui-main\ui\ui.cc(138,54): error C2065: 'window_pos': undeclared identifier
+C:\Users\timot\Downloads\KeyAuth-ImGui-main\KeyAuth-ImGui-main\ui\ui.cc(142,22): error C2065: 'window_title': undeclared identifier
+C:\Users\timot\Downloads\KeyAuth-ImGui-main\KeyAuth-ImGui-main\ui\ui.cc(142,53): error C2065: 'window_flags': undeclared identifier
+C:\Users\timot\Downloads\KeyAuth-ImGui-main\KeyAuth-ImGui-main\ui\ui.cc(173,6): error C2653: 'ui': is not a class or namespace name
+C:\Users\timot\Downloads\KeyAuth-ImGui-main\KeyAuth-ImGui-main\ui\ui.cc(173,10): error C2182: 'init': this use of 'void' is not valid
+C:\Users\timot\Downloads\KeyAuth-ImGui-main\KeyAuth-ImGui-main\ui\ui.cc(173,15): error C2065: 'LPDIRECT3DDEVICE9': undeclared identifier
+C:\Users\timot\Downloads\KeyAuth-ImGui-main\KeyAuth-ImGui-main\ui\ui.cc(173,33): error C2146: syntax error: missing ')' before identifier 'device'
+C:\Users\timot\Downloads\KeyAuth-ImGui-main\KeyAuth-ImGui-main\ui\ui.cc(173,41): error C2143: syntax error: missing ';' before '{'
+C:\Users\timot\Downloads\KeyAuth-ImGui-main\KeyAuth-ImGui-main\ui\ui.cc(173,41): error C2447: '{': missing function header (old-style formal list?)
